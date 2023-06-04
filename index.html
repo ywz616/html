@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ywz的个人主页</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- 整个页面是一个盒模型，在css文件中设置了页面宽度为1000px -->
+    <div id="bigbox">
+        <!-- 页眉的位置放了一张图片，css文件中设置了其宽度与高度-->
+        <div id="header">
+            <img src="./images/header.jpg" alt="">
+        </div>
+        <!-- 导航区：一共有四个页面，分别设置了超链接 -->
+        <nav>
+            <a class="dangqian" href="">首页</a>
+            <a href="./xinxi.html">个人简历</a>
+            <a href="./aihao.html">爱好</a>
+            <a href="./jiaxiang.html">家乡风景</a>
+            <a href="./liuyan.html">留言</a>
+        </nav>
+        <!-- 内容区 -->
+        <div id="main">
+            <!-- 内容区是一个两栏布局，通过float浮动实现的：左侧的内容去浮动在左侧 -->
+            <div id="main_left">
+                <h2>关于我</h2>
+                <img src="./images/zhengjianzhao.jpg" alt="">
+                <p>
+                    <span>姓名</span>:冶万珍<br>
+                    <span>性别</span>:女<br>
+                    <span>爱好</span>:听音乐、摄影、《哈利波特》等<br>
+                    <span>性格</span> :活泼开朗，自信大方<br>
+                    <span>家乡</span>:大美青海<br>
+                    <span>学校</span>:中南财经政法大学
+                </p>
+            </div>
+            <div id="main_right">
+                <h2>人生格言</h2>
+                <p></p>
+                <p>
+                    人只要有一种向上的精神，朝着自己的目标一步步努力，成功的机会就会越来越大。是块金子，无论在哪，总是会发光的。 
+                </p>
+                <p>
+                    要有梦想，即使遥远。当你停止尝试时，就是失败的时候。成功不是将来才有的，而是从决定去做的那一刻起，持续累积而成。
+                </p>
+                <p>
+                    只要你奔跑，这个世界就会跟着你奔跑，只要你停驻，这个世界就会舍弃你独自奔跑。唯有你确定一个方向，使劲的跑起来，这个世界会为你而让路。 
+                </p>
+            </div>
+        </div>
+        <!-- 加了一个照片墙的内容区 -->
+        <div id="xiangce">
+            <h2>照片墙</h2>
+            <div>
+                <div id="picture">
+                    <img src="./images/xiaoyuanfengguang.jpg" alt="">
+                    <p>校园风光</p>
+                </div>
+                <div id="picture">
+                    <img src="./images/shenghuosuipian.jpg" alt="">
+                    <p>生活碎片</p>
+                </div>
+                <div id="picture">
+                    <img src="./images/meishi.jpg" alt="">
+                    <p>美食记录</p>
+                </div>
+                <div id="picture">
+                    <img src="./images/me.jpg" alt="">
+                    <p>ME</p>
+                </div>
+            </div>
+        </div>
+        <!-- 页脚区 -->
+        <footer>
+            <p>
+                版权所有@冶万珍
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

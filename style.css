@@ -1,0 +1,212 @@
+body {
+    background-color:lightblue; 
+}
+
+#bigbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header img {
+    width: 1000px;
+    height: 500px;
+}
+
+nav {
+    background-color: rgb(217, 244, 244);
+    width: 1000px;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #020C16;
+    font-weight: bold;
+}
+/* 鼠标移动到链接上，显示颜色 */
+nav a:hover {
+    color: #49bafb;
+}
+/* 处于当前页面时显示的颜色 */
+.dangqian {
+    color: #49bafb;
+
+}
+
+#main {
+    height: 490px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color:rgb(217, 231, 244);
+}
+
+#main_left {
+    width: 300px;
+    display: inline-block;
+    background-color:rgb(217, 231, 244);
+    float: left; 
+}
+
+h2 {
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #052d43;
+    color: azure;
+}
+
+#main_left img {
+    width: 150px;
+    height: 150px;
+}
+
+#main_left p {
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+#main_left span {
+    font-weight: bold;
+}
+
+#main_right {
+    position: relative;
+    width: 680px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 200px;
+}
+
+#main_right p {
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+    text-indent: 32px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+#xiangce {
+    background-color:rgb(217, 231, 244);
+    width: 1000px;
+}
+/* 使得四张图片显示在一行 */
+#xiangce div {
+    font-size: 0px;
+}
+
+#picture {
+    font-size: 0px;
+    /* 将内联显示为块元素 */
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+#picture img {
+    width: 200px;
+    height: 200px;
+}
+
+#picture p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+footer {
+    line-height: 60px;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(217, 244, 244);
+}
+
+table{
+    width:1000px;
+    border-collapse: collapse;
+}
+th{
+    background-color: azure;
+}
+td{
+    height:40px;
+    width:150px;
+    background-color: azure;
+}
+/* 有几个单元格的高度需要重新设计 */
+.grjn,.jcqk,.shsj,.xqah,.lf{
+    height:100px;
+}
+.zwpj{
+    height: 120px;
+}
+/* 弹性布局：垂直分布 */
+.favor {
+    display: flex; 
+    flex-direction: column;
+}
+
+.favor_item {
+    display: flex;
+    /* 弹性盒子的对齐方式：中心对齐 */
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.favor_item_img {
+    width: 600px;
+    height: 400px;
+}
+
+.favor_item_title {
+    width: 400px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-left: 100px;
+}
+
+.favor_item_titles {
+    width: 400px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+.td-1{
+    width:400px;
+    height:400px;
+}
+form {
+    width: 1000px;
+	display: table;
+	border: thin dotted #7e7e7e;
+	background-color:aliceblue;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}

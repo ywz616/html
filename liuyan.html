@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<title>ywz的个人主页</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="bigbox">
+        <div id="header">
+            <img src="./images/header.jpg" alt="">
+        </div>
+        <nav>
+            <a href="./index.html">首页</a>
+            <a href="./xinxi.html">个人简历</a>
+            <a href="./aihao.html">爱好</a>
+            <a href="./jiaxiang.html">家乡风景</a>
+            <a class="dangqian" href="">留言</a>
+        </nav>
+        <!-- 设计了一个表单：留言板 -->
+		<form>
+            <div class="tableRow">
+				<p>姓名:</p>
+				<p><input type="text" name="name"> </p>
+			</div>
+			<div class="tableRow">
+				<p>
+                <!-- 这里创建了一个性别的下拉列表 -->
+				<label for="sex">性别:</label>
+				</p>
+				<p>
+					<select name="sex" id="性别">
+					  <option>男</option>
+					  <option>女</option>
+					</select>
+				</p>
+			</div>
+			<div class="tableRow">
+				<p>出生日期:</p>
+				<p> <input type="date" name="date"> </p>
+			</div>
+			<div class="tableRow">
+				<p>所在学校:</p>
+				<p> <input type="text" name="school"> </p>
+			</div>
+			<div class="tableRow">
+				<p>专业:</p>
+				<p> <input type="text" name="city"> </p>
+			</div>
+			<div class="tableRow">
+				<p>邮箱:</p>
+				<p> <input type="text" name="e-mail"> </p>
+			</div>
+			<div class="tableRow">
+				<p>电话号码:</p>
+				<p> <input type="text" name="phone"> </p>
+			</div>
+			<div class="tableRow">
+				<p>留言:</p>
+				<p>
+					<textarea name="comments"></textarea>
+				</p>
+			</div>
+			</form>
+            <footer>
+                <p>
+                    版权所有@冶万珍
+                </p>
+            </footer>
+	</div>
+</body>
+</html>
